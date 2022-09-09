@@ -13,7 +13,7 @@ double[,] array = new double[10,10];                       // определяе
 {
     for (int j= 0; j<10; j++)                              // цикл по столбцам
     {
-        array[i,j] = random.NextDouble()*100;            // присваиваем рандомное значение
+        array[i,j] = random.NextDouble()*40-20;            // присваиваем рандомное значение
         Console.Write($"{array[i,j]}");                  // сразу печатаем
         Console.Write(" ");                              // пробелы между элементами
     }
